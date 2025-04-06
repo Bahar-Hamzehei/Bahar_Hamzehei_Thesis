@@ -10,8 +10,8 @@ Used Annotations descriptions: [np.str_('DC Correction/'), np.str_('New Segment/
 
 cs_code	shock	stim_marker number_of_times TMS_marker
 csm 	no	       S 13		      20           S134
-csp_l	left	   S 11		      14           S114
-csp_r	right	   S 12		      14           S124
+csp_l	left	     S 11		      14           S114
+csp_r	right	     S 12		      14           S124
 csp_r	no	       S120		      6            S124
 csp_l	no	       S110		      6            S114
 
@@ -23,8 +23,8 @@ Used Annotations descriptions: [np.str_('DC Correction/'), np.str_('New Segment/
 
 cs_code	shock	stim_marker number_of_times TMS_marker
 csm 	no	       S 23		      20           S234
-csp_l	left	   S 21		      14           S214
-csp_r	right	   S 22		      14           S224
+csp_l	left	     S 21		      14           S214
+csp_r	right	     S 22		      14           S224
 csp_r	no	       S220		      6            S224
 csp_l	no	       S210		      6            S214
 
@@ -37,24 +37,24 @@ Information to figure out what colors corresponded to stim_marker for each parti
 scenario 1 - Block 1
 cs_code	shock	stim_marker number_of_times TMS_marker	color
 csm 	no	       S 13		      20       S234	        yellow
-csp_l	left	   S 11		      14       S214	        blue
-csp_r	right	   S 12		      14       S224	        violet
+csp_l	left	     S 11		      14       S214	        blue
+csp_r	right	     S 12		      14       S224	        violet
 csp_r	no	       S120		      6        S224	        violet
 csp_l	no	       S110		      6        S214	        blue
 
 scenario 2 - Block 1
 cs_code	shock	stim_marker number_of_times TMS_marker	color
 csm 	no	      S 13		      20        S234	    blue
-csp_l	left	  S 11		      14        S214	    violet
-csp_r	right	  S 12		      14        S224 	    yellow
+csp_l	left	    S 11		      14        S214	    violet
+csp_r	right	    S 12		      14        S224 	    yellow
 csp_r	no	      S120		      6         S224	    yellow
 csp_l	no	      S110		      6         S214	    violet
 
 scenario 3 - Block 1
 cs_code	shock	stim_marker number_of_times TMS_marker	color
 csm 	no	       S 13		      20        S234	    violet
-csp_l	left	   S 11		      14        S214	    yellow
-csp_r	right	   S 12		      14        S224	    blue
+csp_l	left	     S 11		      14        S214	    yellow
+csp_r	right	     S 12		      14        S224	    blue
 csp_r	no	       S120		      6         S224	    blue
 csp_l	no	       S110		      6         S214	    yellow
 
