@@ -6,7 +6,7 @@ This repository contains the analysis notebooks developed for my master’s thes
 
 The project investigates whether cue-period EEG can decode the expected spatial content of pain, distinguishing **left-threat**, **right-threat**, and **safety** under a subject-wise evaluation framework.
 
----
+
 
 ## Project overview
 
@@ -22,7 +22,7 @@ The analysis pipeline includes:
 The main empirical results are based on the **Block 1** analysis.  
 Additional exploratory and auxiliary analyses are also included for completeness.
 
----
+
 
 ## Repository structure
 
@@ -58,7 +58,7 @@ The notebooks are arranged in the approximate order of the analytical workflow:
 9. `09_auxiliary_modelling_block1_block2.ipynb`  
    Auxiliary Block 1+Block 2-labelled modelling analysis.
 
----
+
 
 ## Data availability
 
@@ -76,7 +76,7 @@ To run them on a different machine, local paths, data locations, and output dire
 
 The repository therefore provides the **analysis logic and notebook structure**, but not a turnkey public reproduction package with bundled raw data.
 
----
+
 
 ## Scope of the analyses
 
@@ -92,7 +92,7 @@ The repository includes code for:
 The **main thesis conclusions** are based on the **Block 1** analyses under grouped subject-wise evaluation with train-only normalization.  
 The auxiliary Block 1+Block 2-labelled branch is included as supplementary material and is not the primary empirical basis of the thesis.
 
----
+
 
 ## Thesis context
 
@@ -103,7 +103,7 @@ This repository accompanies a master’s thesis submitted in the context of the:
 
 Research was carried out in collaboration with the Department of Psychology, Center for Studies and Research in Cognitive Neuroscience.
 
----
+
 
 ## Author
 
@@ -111,13 +111,13 @@ Research was carried out in collaboration with the Department of Psychology, Cen
 Master’s Degree in Artificial Intelligence  
 University of Bologna
 
----
+
 
 ## Additional note
 
 Internal project materials, private experimental assets, and raw data files are not distributed in this repository.
 
----
+
 
 ## License
 
