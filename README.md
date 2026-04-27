@@ -7,6 +7,25 @@ This repository contains the analysis notebooks developed for my master’s thes
 The project investigates whether cue-period EEG can decode the expected spatial content of pain, distinguishing **left-threat**, **right-threat**, and **safety** under a subject-wise evaluation framework.
 
 
+## Main result
+
+The strongest held-out result was obtained by the **alpha-only Attention TCN**:
+
+- Test accuracy: **40.27%**
+- Macro-F1: **0.3975**
+- Chance level: **33.33%**
+
+The strongest full-band model was the **Full-band Attention TCN**, with **39.93%** test accuracy and **0.3867** macro-F1.
+
+The results are reported as held-out decoding performance.
+
+
+## Thesis and links
+
+- Full thesis PDF: [`Bahar_Hamzehei_MSc_Thesis.pdf`](./Bahar_Hamzehei_MSc_Thesis.pdf)
+- LinkedIn: [linkedin.com/in/Bahar-Hamzehei](https://linkedin.com/in/Bahar-Hamzehei)
+- Contact: bahar.hamzehei@studio.unibo.it
+
 
 ## Project overview
 
@@ -29,33 +48,33 @@ Additional exploratory and auxiliary analyses are also included for completeness
 The notebooks are arranged in the approximate order of the analytical workflow:
 
 ### DC recovery and threshold estimation
-1. `01_dc_recovery_block1.ipynb`  
+1. `01_dc_tail_estimation_block1.ipynb`  
    Signal-based DC recovery analysis for Block 1.
 
-2. `02_dc_recovery_block1_block2.ipynb`  
+2. `02_dc_tail_estimation_block1&block2.ipynb`  
    Combined-block DC recovery analysis used for comparison and shared threshold estimation.
 
 ### Dataset auditing and construction
 3. `03_dataset_audit_block1.ipynb`  
    Block 1 dataset audit, segment statistics, and cleaning summaries.
 
-4. `04_dataset_audit_block1_block2.ipynb`  
+4. `04_dataset_audit_block1&block2.ipynb`  
    Combined-block dataset audit used as a consistency check.
 
 ### Main and exploratory modelling analyses
-5. `05_fullband_modelling_block1.ipynb`  
+5. `05_main_fullband_block1.ipynb`  
    Main Block 1 full-band modelling analysis.
 
-6. `06_alpha_modelling_block1.ipynb`  
+6. `06_alpha_restricted_block1.ipynb`  
    Alpha-restricted Block 1 modelling analysis.
 
-7. `07_theta_modelling_block1.ipynb`  
+7. `07_theta_restricted_block1.ipynb`  
    Theta-restricted Block 1 modelling analysis.
 
-8. `08_c3c4_modelling_block1.ipynb`  
+8. `08_c3c4_restricted_block1.ipynb`  
    C3/C4-restricted Block 1 modelling analysis.
 
-9. `09_auxiliary_modelling_block1_block2.ipynb`  
+9. `09_auxiliary_block1_block2.ipynb`  
    Auxiliary Block 1+Block 2-labelled modelling analysis.
 
 
@@ -67,7 +86,7 @@ The raw EEG / BrainVision recordings are **not included** in this repository.
 This repository is intended to document the analytical workflow and modelling code used in the thesis.  
 Reproducing the full pipeline requires access to the original experimental dataset and corresponding local path configuration.
 
----
+
 
 ## Notes on execution
 
