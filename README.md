@@ -140,4 +140,6 @@ Internal project materials, private experimental assets, and raw data files are 
 
 ## License
 
-This repository is shared for academic and research documentation purposes.
+This repository is released under the MIT License.
+
+If you use this repository or build on this work, please cite or acknowledge the thesis and repository.
